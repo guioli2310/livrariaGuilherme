@@ -1,3 +1,28 @@
+.cabeca{
+	position: relative;
+	width: 2000px;
+	margin: 0 auto;
+	font-size: 30px;
+  }
+  nav{
+	top: 110px;
+	right: 0;
+  }
+  nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+  }
+  nav a{
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+  }
+  nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+  }
 body{
     background: #FFFFF0;
 }
@@ -38,3 +63,19 @@ body{
 	font-size: 30px;
 	font-weight: bold;
 }
+form{
+    margin: 40px 0;
+  }
+  form label, form legend{
+    font-size: 20px;
+    margin: 0 0 10px;
+  }
+  h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  #genero{
+    font-size: 25px;
+  }
+  .texto{
+    font-size: 20px;
+  }
